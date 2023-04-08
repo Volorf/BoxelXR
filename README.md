@@ -1,2 +1,1 @@
-# BoxelXR
-A landing page for Boxel VR Editor.
+This is a starter template for [Learn Next.js](https://nextjs.org/learn).

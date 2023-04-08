@@ -1,8 +1,30 @@
-import HeroBlock from '/components/hero-block/heroBlock.js'
+import Head from 'next/head';
+import Button from '../components/button';
+import heroBlockStyles from '../styles/heroBlock.module.css'
+import BackgroundVideo from '../components/backgroundVideo';
 
-export default function MainPage() {
+export default function Home() {
+  return (
+    <div>
+      <Head>
+        <title>BoxelXR — VR Voxel Editor.</title>
+      </Head>
 
-    return (<div>
-            <HeroBlock />
-            </div>)
+      <BackgroundVideo videoSource="demo1.webm" />
+
+      <div className={heroBlockStyles.block}>
+        <div className={heroBlockStyles.container}>
+          <div className={heroBlockStyles.leftPart}>
+            <h1 className={heroBlockStyles.title}>The most intuitive way to create voxel graphics</h1>
+            <p className={heroBlockStyles.body}>BoxelXR is a VR voxel editor that allows you to create voxel graphics in a way that feels natural. It's a great tool for creating 3D models for games, animations, and more.</p>
+            <Button name="Join Waiting List" link="https://forms.gle/XUmwZ1bKSfrobKsa6" />
+          </div>
+          <div className={heroBlockStyles.gallery}></div>
+          <div className={heroBlockStyles.video}>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  )
 }
