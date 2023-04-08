@@ -10,7 +10,7 @@ export default function Home() {
         <title>BoxelXR — VR Voxel Editor.</title>
       </Head>
 
-      <BackgroundVideo videoSource="http://frolovoleg.ru/videos/demo1.mp4" />
+      <BackgroundVideo videoSource="videos/demo.mp4" />
 
       <div className={heroBlockStyles.block}>
         <div className={heroBlockStyles.container}>
