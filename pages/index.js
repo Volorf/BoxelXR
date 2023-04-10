@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>BoxelXR — VR Voxel Editor.</title>
+        <title>BoxelXR — Simple Editor for Voxel Graphics.</title>
       </Head>
 
       <BackgroundVideo videoSource="demo.mp4" />
