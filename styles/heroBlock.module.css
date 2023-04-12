@@ -3,8 +3,7 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 100%;
-  position: fixed;
+  height: 100vh;
   top: 0;
 }
 
@@ -14,25 +13,16 @@
   width: 100%;
   height: 100%;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 2fr;
 }
 
 .leftPart {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   row-gap: 48px;
-  background-color: var(--black);
+  background-color: var(--white);
   padding: 48px;
-}
-
-#demoVideo {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    width: 100vw;
-    min-height: 100vh;
-    z-index: -100;
 }
 
 .video {
@@ -42,4 +32,38 @@
 
 .gallery {
     /* background-color: oklch(100% 1 20 / 50%); */
+}
+
+.textData {
+  row-gap: 48px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cover
+{
+  background-image: url("/images/vampire.png");
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(100%);
+  transition: filter 1s;
+}
+
+.cover:hover
+{
+  filter: grayscale(0%)
+}
+
+
+@media (max-width: 800px) {
+  .block {
+    height: 1;
+    flex-direction: column;
+  }
+  .container {
+    grid-template-columns: 1fr;
+  }
+  .cover {
+    height: 480px;
+  }
 }

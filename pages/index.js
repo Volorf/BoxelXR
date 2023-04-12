@@ -15,13 +15,14 @@ export default function Home() {
       <div className={heroBlockStyles.block}>
         <div className={heroBlockStyles.container}>
           <div className={heroBlockStyles.leftPart}>
-            <h1>BoxelXR is the most intuitive way to create voxel graphics</h1>
-            <p>BoxelXR is a VR voxel editor that allows you to create voxel graphics in a way that feels natural. It's a great tool for creating 3D models for games, animations, and more.</p>
-            <Button name="Join Waiting List" link="https://forms.gle/XUmwZ1bKSfrobKsa6" />
+            <div className={heroBlockStyles.textData}>
+              <h1>BoxelXR is the most intuitive way to create voxel graphics</h1>
+              <p>BoxelXR is a VR voxel editor that allows you to create voxel graphics in a way that feels natural. It's a great tool for creating 3D models for games, animations, and more.</p>
+            </div>
+           <Button name="Join Waiting List" link="https://forms.gle/XUmwZ1bKSfrobKsa6" />
+          
           </div>
-          <div className={heroBlockStyles.gallery}></div>
-          <div className={heroBlockStyles.video}>
-          </div>
+          <div className={heroBlockStyles.cover}></div>
         </div>
       </div>
       

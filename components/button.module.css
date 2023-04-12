@@ -1,9 +1,9 @@
 .ctaButton {
-  background-color: var(--white);
-  color: var(--black);
+  background-color: var(--black);
+  color: var(--white);
   border: none;
   border-radius: 2px;
-  font-size: 16px;
+  font-size: var(--baseFontSize);
   font-weight: 400;
   line-height: 64px;
   font-family: inherit;
@@ -14,7 +14,7 @@
 }
 
 .ctaButton:hover {
-  background-color: var(--black);
-  color: var(--white);
-  border: 1px solid var(--white);
+  background-color: var(--white);
+  color: var(--black);
+  border: 1px solid var(--black);
 }
