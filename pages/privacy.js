@@ -32,7 +32,6 @@ export default function Home() {
                 <p>
                     Our Services do not contain any links to third-party websites or services. We are dedicated to providing a seamless and secure user experience without exposing you to potential privacy risks associated with third parties.
                 </p>
-                <div className="VSpacer24"></div>
                 {/* <p><strong>4. Children's Privacy</strong></p>
                 <div className="VSpacer24"></div>
                 <p>
