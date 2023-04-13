@@ -33,13 +33,13 @@ export default function Home() {
                     Our Services do not contain any links to third-party websites or services. We are dedicated to providing a seamless and secure user experience without exposing you to potential privacy risks associated with third parties.
                 </p>
                 <div className="VSpacer24"></div>
-                <p><strong>4. Children's Privacy</strong></p>
+                {/* <p><strong>4. Children's Privacy</strong></p>
                 <div className="VSpacer24"></div>
                 <p>
                     Our Services are not intended for use by children under the age of 13. As we do not collect personal information, we have no way of verifying the age of our users. However, if you believe that a child under the age of 13 is using our Services, please contact us so that we can investigate and take appropriate action.
-                </p>
+                </p> */}
                 <div className="VSpacer24"></div>
-                <p><strong>5. Your Rights and Choices</strong></p>
+                <p><strong>4. Your Rights and Choices</strong></p>
                 <div className="VSpacer24"></div>
                 <p>
                     Since we do not collect or store any personal information, there is no need for you to review, update, or delete any data through our Services. However, you can manage your voxel graphics and user preferences directly on your device.
