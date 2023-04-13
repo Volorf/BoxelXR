@@ -51,7 +51,7 @@
 
 .cover:hover
 {
-  filter: grayscale(0%)
+  filter: grayscale(100%) invert(1);
 }
 
 
