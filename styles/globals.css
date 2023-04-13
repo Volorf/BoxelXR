@@ -4,6 +4,7 @@
   --white: #eee;
   --black: #333;
   --baseFontSize: 16px;
+  --accentFontSize: 48px;
 }
 
 html,
@@ -36,7 +37,7 @@ ul {
 }
 
 h1 {
-  font-size: 48px;
+  font-size: var(--accentFontSize);
   font-weight: 800;
   color: var(--black);
 }
@@ -85,4 +86,13 @@ p {
   height: 48px;
   margin: 0;
   padding: 0;
+}
+
+@media (max-width: 800px) {
+  :root{
+    --accentFontSize: 40px;
+  }
+  .privacyContainer {
+    margin: 48px 48px;
+  }
 }

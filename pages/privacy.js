@@ -46,7 +46,7 @@ export default function Home() {
                 </p>
                 <div className="VSpacer24"></div>
                 <p>
-                    By using our Services, you acknowledge and agree to the practices outlined in this Privacy Policy. If you have any questions or concerns about our privacy practices, please contact us at olegfrolovdesignr@gmail.com.
+                    By using our Services, you acknowledge and agree to the practices outlined in this Privacy Policy. If you have any questions or concerns about our privacy practices, please contact us at <strong>olegfrolovdesignr@gmail.com</strong>.
                 </p>
                 <div className="VSpacer48"></div>
                 <div className="VSpacer48"></div>
