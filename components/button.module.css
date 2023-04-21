@@ -11,6 +11,8 @@
   letter-spacing: 2px;
   padding: 0 32px;
   cursor: pointer;
+  box-sizing: border-box;
+  border: 1px solid transparent;
 }
 
 .ctaButton:hover {

@@ -7,9 +7,9 @@ const Button = ({ name, link }) => {
     }
     
     return (
-    <button className={styles.ctaButton} onClick={handleClick}>
+    <div className={styles.ctaButton} onClick={handleClick}>
       {name}
-    </button>
+    </div>
   )
 }
 
